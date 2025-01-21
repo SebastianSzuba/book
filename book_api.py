@@ -31,7 +31,7 @@ class BookList:
 
     def show_books(self):
         if not self.buecher:
-            print("Keine buecher vorhanden.")
+            print("Keine Buecher vorhanden.")
         else:
             print("----------\n" + "Buecher in Liste:\n----------")
             for index, buch in enumerate(self.buecher, start=1):
